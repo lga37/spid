@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>SPID - UnirioTec</title>
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,14 +21,11 @@
 
             <a class="navbar-brand wow slideInLeft slow" href="#home"><strong>SPID</strong></a>
 
-            <!-- Collapse -->
             <button class="navbar-toggler " id="home" data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
                 <span class="navbar-toggler-icon "></span>
             </button>
 
-            <!-- Links -->
             <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-
                 <ul class="navbar-nav mr-auto ">
                     <li class="nav-item ">
                         <a class="nav-link " href="#home">Home
@@ -44,11 +41,9 @@
                 <!-- Right -->
                 <ul class="navbar-nav nav-flex-icons ">
 
-
                     <li class="nav-item dropdown">
-                        <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         BR <i class="brazil flag"></i>
+                        <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            BR <i class="brazil flag"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
                             <a class="dropdown-item active" href="#"><i class="brazil flag"></i> BR</a>
@@ -73,8 +68,6 @@
 
 
     <div id="carousel-example-1z" class="carousel slide carousel-fade pointer-event" data-ride="carousel">
-
-        <!--Indicators-->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-1z" data-slide-to="0" class=""></li>
             <li data-target="#carousel-example-1z" data-slide-to="1" class="active"></li>
@@ -234,10 +227,6 @@
                             O laboratório está aberto para parcenas com o governo, empresas e organizaçoes necessitem que de competência especializada em Inteligência Artificial e Ciência de Dados para elaborar ou auxiliar o dese nvolvi mento solução de problemas_
                         </p>
 
-                        <!-- CTA -->
-                        <a target="_blank " href="#" class="btn btn-grey btn-md ">Link 1<i class="fas fa-download ml-1 "></i></a>
-                        <a target="_blank " href="# " class="btn btn-grey btn-md ">Link 2<i class="far fa-image ml-1 "></i></a>
-
                     </div>
                     <!--Grid column-->
 
@@ -334,7 +323,7 @@
                         <div class="col-md-6 col-lg-3 mb-4 text-center ">
                             <h4 class="h1 font-weight-normal mb-1 ">
                                 <i class="fas fa-file-alt indigo-text "></i>
-                                <span class="d-inline-block count-up " data-from="0 " data-to="100 " data-time="6000 ">100</span>
+                                <span class="d-inline-block count-up " data-from="0 " data-to="30 " data-time="8000 ">30</span>
                             </h4>
                             <p class="font-weight-normal text-muted ">Projetos</p>
                         </div>
@@ -342,7 +331,7 @@
                         <div class="col-md-6 col-lg-3 mb-4 text-center ">
                             <h4 class="h1 font-weight-normal mb-1 ">
                                 <i class="fas fa-layer-group indigo-text "></i>
-                                <span class="d-inline-block count1 " data-from="0 " data-to="250 " data-time="6000 ">250</span>
+                                <span class="d-inline-block count1 " data-from="0 " data-to="16 " data-time="9000 ">16</span>
                             </h4>
                             <p class="font-weight-normal text-muted ">Doutores</p>
                         </div>
@@ -350,7 +339,7 @@
                         <div class="col-md-6 col-lg-3 mb-4 text-center ">
                             <h4 class="h1 font-weight-normal mb-1 ">
                                 <i class="fas fa-pencil-ruler indigo-text "></i>
-                                <span class="d-inline-block count2 " data-from="0 " data-to="330 " data-time="6000 ">330</span>
+                                <span class="d-inline-block count2 " data-from="0 " data-to="20 " data-time="9000 ">20</span>
                             </h4>
                             <p class="font-weight-normal text-muted ">Mestres</p>
                         </div>
@@ -358,7 +347,7 @@
                         <div class="col-md-6 col-lg-3 mb-4 text-center ">
                             <h4 class="h1 font-weight-normal mb-1 ">
                                 <i class="fab fa-react indigo-text "></i>
-                                <span class="d-inline-block count3 " data-from="0 " data-to="430 " data-time="6000 ">430</span>
+                                <span class="d-inline-block count3 " data-from="0 " data-to="80 " data-time="8000 ">80</span>
                             </h4>
                             <p class="font-weight-normal text-muted ">Publicacoes</p>
                         </div>
@@ -391,18 +380,19 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Why did you cancel the ride?</h6>
+                                <span class="badge mr-1 indigo">Specific</span>
 
-                                <span class="badge badge-default">Default</span>
-                                <span class="badge badge-primary">Primary</span>
-                                <span class="badge badge-secondary">Secondary</span>
-                                <span class="badge badge-success">Success</span>
-                                <span class="badge badge-danger">Danger</span>
-                                <span class="badge badge-warning">Warning</span>
-                                <span class="badge badge-info">Info</span>
-                                <span class="badge badge-light">Light</span>
-                                <span class="badge badge-dark">Dark</span>
+                                <span class="badge mr-1 badge-default">Default</span>
+                                <span class="badge mr-1 badge-primary">Primary</span>
+                                <span class="badge mr-1 badge-secondary">Secondary</span>
+                                <span class="badge mr-1 badge-success">Success</span>
+                                <span class="badge mr-1 badge-danger">Danger</span>
+                                <span class="badge mr-1 badge-warning">Warning</span>
+                                <span class="badge mr-1 badge-info">Info</span>
+                                <span class="badge mr-1 badge-light">Light</span>
+                                <span class="badge mr-1 badge-dark">Dark</span>
 
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/First row-->
@@ -414,16 +404,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Senior citizen’s safe network</h6>
-                                <span class="badge badge-default">Default</span>
-                                <span class="badge badge-primary">Primary</span>
-                                <span class="badge badge-secondary">Secondary</span>
-                                <span class="badge badge-success">Success</span>
-                                <span class="badge badge-danger">Danger</span>
-                                <span class="badge badge-warning">Warning</span>
-                                <span class="badge badge-info">Info</span>
-                                <span class="badge badge-light">Light</span>
-                                <span class="badge badge-dark">Dark</span>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Second row-->
@@ -435,16 +416,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Drops of wisdom from the Brazilian education system</h6>
-                                <span class="badge badge-default">Default</span>
-                                <span class="badge badge-primary">Primary</span>
-                                <span class="badge badge-secondary">Secondary</span>
-                                <span class="badge badge-success">Success</span>
-                                <span class="badge badge-danger">Danger</span>
-                                <span class="badge badge-warning">Warning</span>
-                                <span class="badge badge-info">Info</span>
-                                <span class="badge badge-light">Light</span>
-                                <span class="badge badge-dark">Dark</span>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Third row-->
@@ -456,8 +428,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Dealing with petroleum</h6>
-                                <p class="grey-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vel nesciunt iure, incidunt itaque nisi vitae laudantium.</p>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Fourth row-->
@@ -481,9 +452,8 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Drops of wisdom in the stock market</h6>
-                                <p class="grey-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vel nesciunt iure, incidunt itaque nisi vitae laudantium.
                                 </p>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/First row-->
@@ -495,8 +465,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Digital immortality</h6>
-                                <p class="grey-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vel nesciunt iure, incidunt itaque nisi vitae laudantium.</p>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Second row-->
@@ -508,9 +477,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">Corona Virus</h6>
-                                <p class="grey-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vel nesciunt iure, incidunt itaque nisi vitae laudantium.
-                                </p>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Third row-->
@@ -522,8 +489,7 @@
                             </div>
                             <div class="col-10 ">
                                 <h6 class="feature-title ">FencyBot</h6>
-                                <p class="grey-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident vel nesciunt iure, incidunt itaque nisi vitae laudantium.</p>
-                                <div style="height:15px "></div>
+                                <div style="height:25px "></div>
                             </div>
                         </div>
                         <!--/Fourth row-->
@@ -591,7 +557,7 @@
                     $div = <<<DIV
 
                         <div class="chip chip-lg wow  $anima text-left" style="width:170px;">
-                            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg"
+                            <img src="img/user.png"
                             alt="$titulo" class="text-truncate">$star $nome
                         </div>
 
@@ -626,11 +592,7 @@ DIV;
                 <h2 class="my-5 h3 text-center ">Publicações</h2>
 
                 <ul class="timeline ">
-                    <h5 class="badge badge-secondary px-4 ">2020</h5>
-                    <li>
-                        <a href="# ">XXXXXXXXXXXXXXXXX.</a>
-                        <p><b>yyyyyyyyyyyyyyyy.</b> zzzzzzzzzzzzzzzz</p>
-                    </li>
+
                     <h5 class="badge badge-secondary px-4 ">2019</h5>
                     <li>
                         <a href="# ">SACRAMENTO, C.; FERREIRA, S. B. L.; CAPRA, E. P.; Garcia, A. C. B.</a>
@@ -1069,50 +1031,36 @@ DIV;
         <div class="container text-center text-md-left mt-5">
             <div class="row mt-3">
                 <!--First column-->
-                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <div class="col-md-3 mb-4">
                     <h6 class="text-uppercase font-weight-bold">
                         <strong>Links Uteis</strong>
                     </h6>
                     <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
+                    <p><a href="#">Link1</a></p>
                     <p><a href="#">Link</a></p>
 
                 </div>
                 <!--/.First column-->
                 <!--Second column-->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div class="col-md-3 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">
                         <strong>UniRio</strong>
                     </h6>
                     <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
+                    <p><a href="#">Link1</a></p>
+                    <p><a href="#">Link2</a></p>
                 </div>
                 <!--/.Second column-->
                 <!--Third column-->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <strong>UniRioTec</strong>
-                    </h6>
-                    <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                </div>
-                <!--/.Third column-->
-                <!--Fourth column-->
-                <div class="col-md-4 col-lg-3 col-xl-3">
+                <div class="col-md-6">
                     <h6 class="text-uppercase font-weight-bold">
                         <strong>SPID</strong>
                     </h6>
                     <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
 
 
-                    <p><a href="#"><i class="fas fa-map mr-3"></i> Rua Z, Urca, Rio de Janeiro - RJ</a></p>
-                    <p><a href="#"><i class="fas fa-phone mr-3"></i> 021 XXXXXXXXX</a></p>
-
+                    <p><a href="#"><i class="fas fa-map-marker-alt mr-2"></i></i> Av. Pasteur, 296 - Urca, Rio de Janeiro - RJ, 22290-250</a></p>
+                    <p><a href="#"><i class="fab fa-whatsapp mr-2"></i> +55 21 99998-1079</a></p>
 
                 </div>
 
@@ -1123,6 +1071,10 @@ DIV;
             <a href="#">
                 <strong> spid.uniriotec.br</strong>
             </a>
+        </div>
+        <div class="footer-copyright text-right cyan-text">
+                Ingredients: <i class="fab fa-php"></i> <i class="fas fa-heart"></i> <i class="fas fa-mug-hot mr-3"></i>
+                    Chef: <span class="mr-2">LGA</span>
         </div>
     </footer>
 
